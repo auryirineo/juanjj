@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "calibri light";
+}
+
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+    border: dashed gray;
+}
+
+header{
+    width: 100%;
+    height: 400px;
+    background-image: url("../imagenes/portadaa.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    background: pink;
+    padding: 20px 30px;
+}
+
+main .foto{
+    width: 150px;
+    height: 150px;
+    background: teal;
+    border-radius: 50%;
+    margin: -90px 0 20px 0;
+    border: 6px solid #ffffff;
+}
+
+main .foto img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+footer{
+    background:  teal;
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+}
